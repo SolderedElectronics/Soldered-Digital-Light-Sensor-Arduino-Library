@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['native_0',['native',['../class_e_a_s_y_c___s_o_l_d_e_r_e_d___l_i_b_s_1_1_easy_c.html#ab4a677cb6435085086c9b532a9d27b5e',1,'EASYC_SOLDERED_LIBS::EasyC']]]
+  ['native_0',['native',['../class_digital__light__sensor__easyc_1_1_easy_c.html#a03b180cb0c9058808e048de53e77a7f9',1,'Digital_light_sensor_easyc::EasyC']]]
 ];

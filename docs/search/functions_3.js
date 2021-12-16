@@ -1,5 +1,6 @@
 var searchData=
 [
-  ['readdata_0',['readData',['../class_e_a_s_y_c___s_o_l_d_e_r_e_d___l_i_b_s_1_1_easy_c.html#a64631d9b1f7d05f32f85b547097e83b5',1,'EASYC_SOLDERED_LIBS::EasyC']]],
-  ['readregister_1',['readRegister',['../class_e_a_s_y_c___s_o_l_d_e_r_e_d___l_i_b_s_1_1_easy_c.html#a759023180eea23f55cbb24cbd89ec3b8',1,'EASYC_SOLDERED_LIBS::EasyC']]]
+  ['getlightintensity_0',['getLightIntensity',['../class_l_t_r507.html#ac1b0588f6fdb7fba2046f580c3f698fe',1,'LTR507']]],
+  ['getproximity_1',['getProximity',['../class_l_t_r507.html#ace2a38035367f9b30ecea6745cac7a99',1,'LTR507']]],
+  ['getreg_2',['getReg',['../class_l_t_r507.html#a22aed01a27456e5aa7aacc2c6a0f105e',1,'LTR507']]]
 ];

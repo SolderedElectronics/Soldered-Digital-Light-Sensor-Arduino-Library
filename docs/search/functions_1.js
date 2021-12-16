@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['easyc_0',['EasyC',['../class_e_a_s_y_c___s_o_l_d_e_r_e_d___l_i_b_s_1_1_easy_c.html#aea626d369c76c341ddbb3b3b56ca1466',1,'EASYC_SOLDERED_LIBS::EasyC']]]
+  ['begin_0',['begin',['../class_digital__light__sensor__easyc_1_1_easy_c.html#a51950d8ebf5150d499f1faff0f667af2',1,'Digital_light_sensor_easyc::EasyC::begin()'],['../class_digital__light__sensor__easyc_1_1_easy_c.html#a38a61c5e5dfa2293f4d70219531a87b0',1,'Digital_light_sensor_easyc::EasyC::begin(uint8_t _address)']]]
 ];
