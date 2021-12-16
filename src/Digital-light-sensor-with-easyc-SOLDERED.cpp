@@ -31,19 +31,20 @@ void LTR507::initializeNative()
     pinMode(pin, INPUT);
 }
 
-uint16_t* LTR507::getLightIntensity()
+uint16_t *LTR507::getLightIntensity()
 {
-    readRegister(ALS_PS_INTERRUPT_ADDRESS, raw, sizeof(uint8_t)); //Get ALS and PS state register
-    if (!(0x4 & raw[0])) //If bit 3 is set to 0, Digital Light Sensor measuring is old data
+    readRegister(ALS_PS_INTERRUPT_ADDRESS, raw, sizeof(uint8_t)); // Get ALS and PS state register
+    if (!(0x4 & raw[0])) // If bit 3 is set to 0, Digital Light Sensor measuring is old data
     {
         return 0;
     }
-    readRegister(LIGHT_INTENSITY_ADDRESS, raw, sizeof(uint8_t)*2); //Get two bytes that consist of light intensity data
-    value = raw[0] | raw[1] << 8; //I2C sends 8 bits at once, this function merges two bytes into one variable
+    readRegister(LIGHT_INTENSITY_ADDRESS, raw,
+                 sizeof(uint8_t) * 2); // Get two bytes that consist of light intensity data
+    value = raw[0] | raw[1] << 8;      // I2C sends 8 bits at once, this function merges two bytes into one variable
     return &value;
 }
 
-uint16_t* LTR507::getProximity()
+uint16_t *LTR507::getProximity()
 {
     readRegister(ALS_PS_INTERRUPT_ADDRESS, raw, sizeof(uint8_t)); // Get ALS and PS state register
     if (!(0x1 & raw[0])) // If bit 1 is set to 0, Proximity Sensor measuring is old data
@@ -51,8 +52,8 @@ uint16_t* LTR507::getProximity()
         return 0;
     }
     readRegister(PROXIMITY_ADDRESS, raw, sizeof(uint8_t) * 2); // Get two bytes that consist of proximity data
-    value = raw[0] | raw[1] << 8; //I2C sends 8 bits at once, this function merges two bytes into one variable
-    return &value;  
+    value = raw[0] | raw[1] << 8; // I2C sends 8 bits at once, this function merges two bytes into one variable
+    return &value;
 }
 
 bool LTR507::Available()
