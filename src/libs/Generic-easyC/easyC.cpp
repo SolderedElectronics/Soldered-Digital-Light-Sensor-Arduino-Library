@@ -11,7 +11,7 @@
 
 #include "easyC.h"
 
-namespace EASYC_SOLDERED_LIBS
+namespace Digital_light_sensor_easyc
 {
 
 /**
@@ -48,6 +48,7 @@ void EasyC::begin(uint8_t _address)
     Wire.begin();
 
     beginDone = 1;
+
 }
 
 /**
@@ -117,4 +118,4 @@ int EasyC::sendData(const uint8_t *a, int n)
     return err = Wire.endTransmission();
 }
 
-} // namespace EASYC_SOLDERED_LIBS
+} // namespace Digital_light_sensor_easyc

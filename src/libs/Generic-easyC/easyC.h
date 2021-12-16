@@ -18,7 +18,7 @@
 #define ANALOG_READ_REG  0
 #define DIGITAL_READ_REG 1
 
-namespace EASYC_SOLDERED_LIBS
+namespace Digital_light_sensor_easyc
 {
 
 class EasyC
@@ -46,6 +46,6 @@ class EasyC
     int readRegister(char regAddr, char a[], size_t n);
 };
 
-} // namespace EASYC_SOLDERED_LIBS
+} // namespace Digital_light_sensor_easyc
 
 #endif
