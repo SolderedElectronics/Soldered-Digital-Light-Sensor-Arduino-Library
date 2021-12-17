@@ -31,19 +31,20 @@ void LTR507::initializeNative()
     pinMode(pin, INPUT);
 }
 
-uint16_t* LTR507::getLightIntensity()
+uint16_t *LTR507::getLightIntensity()
 {
-    readRegister(ALS_PS_INTERRUPT_ADDRESS, raw, sizeof(uint8_t)); //Get ALS and PS state register
+    readRegister(ALS_PS_INTERRUPT_ADDRESS, raw, sizeof(uint8_t)); // Get ALS and PS state register
     if (!(0x4 & raw[0])) // If bit 2 is set to 0, Digital Light Sensor measuring is old data
     {
         return 0;
     }
-    readRegister(LIGHT_INTENSITY_ADDRESS, raw, sizeof(uint8_t)*2); //Get two bytes that consist of light intensity data
-    value = raw[0] | raw[1] << 8; //I2C sends 8 bits at once, this function merges two bytes into one variable
+    readRegister(LIGHT_INTENSITY_ADDRESS, raw,
+                 sizeof(uint8_t) * 2); // Get two bytes that consist of light intensity data
+    value = raw[0] | raw[1] << 8;      // I2C sends 8 bits at once, this function merges two bytes into one variable
     return &value;
 }
 
-uint16_t* LTR507::getProximity()
+uint16_t *LTR507::getProximity()
 {
     readRegister(ALS_PS_INTERRUPT_ADDRESS, raw, sizeof(uint8_t)); // Get ALS and PS state register
     if (!(0x1 & raw[0])) // If bit 0 is set to 0, Proximity Sensor measuring is old data
@@ -51,8 +52,8 @@ uint16_t* LTR507::getProximity()
         return 0;
     }
     readRegister(PROXIMITY_ADDRESS, raw, sizeof(uint8_t) * 2); // Get two bytes that consist of proximity data
-    value = raw[0] | raw[1] << 8; //I2C sends 8 bits at once, this function merges two bytes into one variable
-    return &value;  
+    value = raw[0] | raw[1] << 8; // I2C sends 8 bits at once, this function merges two bytes into one variable
+    return &value;
 }
 
 bool LTR507::Available()
@@ -74,7 +75,7 @@ void LTR507::setPSMode(bool mode)
         reg_state[1] = buff & 0xFD;
     }
     reg_state[0] = PS_CONTR_REG;
-    sendData(reg_state, sizeof(uint8_t)*2);
+    sendData(reg_state, sizeof(uint8_t) * 2);
 }
 
 void LTR507::setALSMode(bool mode)
@@ -91,12 +92,12 @@ void LTR507::setALSMode(bool mode)
         reg_state[1] = buff & 0xFD;
     }
     reg_state[0] = ALS_CONTR_REG;
-    sendData(reg_state, sizeof(uint8_t)*2);
+    sendData(reg_state, sizeof(uint8_t) * 2);
 }
 
 char LTR507::getReg(int addr)
 {
-    char a ='a';
+    char a = 'a';
     readRegister(addr, &a, 1);
     return a;
 }
@@ -147,33 +148,33 @@ void LTR507::init()
     setALSMode(1);
 }
 
-    /*
+/*
 void LTR5XX::ltr5xx_basic_init(Ltr5xx_Init_Basic_Para *init_base_para){
-  *ps_set_mode(LTR5XX_PS_STAND_BY_MODE);
-  *als_set_mode(LTR5XX_ALS_STAND_BY_MODE);
-  *ps_set_led_pulse_freq(init_base_para->ps_led_pulse_freq);
-  *ps_set_led_duty_cycle(init_base_para->ps_led_duty_cycle);
-  *ps_set_meas_rate(init_base_para->ps_measurement_rate);
-  *ps_set_led_peak_current(init_base_para->ps_led_peak_current);
-  *ps_set_n_pulses(init_base_para->ps_led_n_pulses);
-  *als_set_gain(init_base_para->als_gain);
+*ps_set_mode(LTR5XX_PS_STAND_BY_MODE);
+*als_set_mode(LTR5XX_ALS_STAND_BY_MODE);
+*ps_set_led_pulse_freq(init_base_para->ps_led_pulse_freq);
+*ps_set_led_duty_cycle(init_base_para->ps_led_duty_cycle);
+*ps_set_meas_rate(init_base_para->ps_measurement_rate);
+*ps_set_led_peak_current(init_base_para->ps_led_peak_current);
+*ps_set_n_pulses(init_base_para->ps_led_n_pulses);
+*als_set_gain(init_base_para->als_gain);
 
-  #ifdef LTR55X
-    als_set_integration_time(init_base_para->als_integration_time);
-  #endif
-  #ifdef LTR507
-    als_set_adc_bit_width(init_base_para->als_adc_bit_width);
-  #endif
+#ifdef LTR55X
+als_set_integration_time(init_base_para->als_integration_time);
+#endif
+#ifdef LTR507
+als_set_adc_bit_width(init_base_para->als_adc_bit_width);
+#endif
 
-  als_set_measure_rate(init_base_para->als_measurement_rate);
+als_set_measure_rate(init_base_para->als_measurement_rate);
 }
 
 void LTR5XX::ltr5xx_interrupt_init(Ltr5xx_Init_Interrupt_Para *init_interrupt_para){
-  ltr5xx_set_interrupt_polarity(init_interrupt_para->interrupt_polarity);
-  ltr5xx_set_interrupt_mode(init_interrupt_para->interrupt_mode);
-  ps_set_threshold(init_interrupt_para->ps_upper_threshold, init_interrupt_para->ps_lower_threshold);
-  als_set_threshold(init_interrupt_para->als_upper_threshold, init_interrupt_para->als_lower_threshold);
-  ltr5xx_set_n_values_outside_trigger_interrupt(init_interrupt_para->ps_n_values_outside_trigger,
+ltr5xx_set_interrupt_polarity(init_interrupt_para->interrupt_polarity);
+ltr5xx_set_interrupt_mode(init_interrupt_para->interrupt_mode);
+ps_set_threshold(init_interrupt_para->ps_upper_threshold, init_interrupt_para->ps_lower_threshold);
+als_set_threshold(init_interrupt_para->als_upper_threshold, init_interrupt_para->als_lower_threshold);
+ltr5xx_set_n_values_outside_trigger_interrupt(init_interrupt_para->ps_n_values_outside_trigger,
 init_interrupt_para->als_n_values_outside_trigger); }
 
 */
