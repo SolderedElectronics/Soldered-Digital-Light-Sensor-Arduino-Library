@@ -146,34 +146,3 @@ void LTR507::init()
     setPSMode(1);
     setALSMode(1);
 }
-
-    /*
-void LTR5XX::ltr5xx_basic_init(Ltr5xx_Init_Basic_Para *init_base_para){
-  *ps_set_mode(LTR5XX_PS_STAND_BY_MODE);
-  *als_set_mode(LTR5XX_ALS_STAND_BY_MODE);
-  *ps_set_led_pulse_freq(init_base_para->ps_led_pulse_freq);
-  *ps_set_led_duty_cycle(init_base_para->ps_led_duty_cycle);
-  *ps_set_meas_rate(init_base_para->ps_measurement_rate);
-  *ps_set_led_peak_current(init_base_para->ps_led_peak_current);
-  *ps_set_n_pulses(init_base_para->ps_led_n_pulses);
-  *als_set_gain(init_base_para->als_gain);
-
-  #ifdef LTR55X
-    als_set_integration_time(init_base_para->als_integration_time);
-  #endif
-  #ifdef LTR507
-    als_set_adc_bit_width(init_base_para->als_adc_bit_width);
-  #endif
-
-  als_set_measure_rate(init_base_para->als_measurement_rate);
-}
-
-void LTR5XX::ltr5xx_interrupt_init(Ltr5xx_Init_Interrupt_Para *init_interrupt_para){
-  ltr5xx_set_interrupt_polarity(init_interrupt_para->interrupt_polarity);
-  ltr5xx_set_interrupt_mode(init_interrupt_para->interrupt_mode);
-  ps_set_threshold(init_interrupt_para->ps_upper_threshold, init_interrupt_para->ps_lower_threshold);
-  als_set_threshold(init_interrupt_para->als_upper_threshold, init_interrupt_para->als_lower_threshold);
-  ltr5xx_set_n_values_outside_trigger_interrupt(init_interrupt_para->ps_n_values_outside_trigger,
-init_interrupt_para->als_n_values_outside_trigger); }
-
-*/
