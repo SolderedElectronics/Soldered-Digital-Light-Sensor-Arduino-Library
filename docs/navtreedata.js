@@ -24,7 +24,7 @@
 */
 var NAVTREE =
 [
-  [ "16x2 easyC LCD Library", "index.html", [
+  [ "Digital Light sensor Arduino library", "index.html", [
     [ "NAZIV PROIZVODA Arduino library", "index.html", null ],
     [ "Namespaces", "namespaces.html", [
       [ "Namespace List", "namespaces.html", "namespaces_dup" ]
