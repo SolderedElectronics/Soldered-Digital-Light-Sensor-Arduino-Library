@@ -15,7 +15,7 @@
 /**
  * @brief                   Sensor specific native constructor.
  *
- * @param int _pin          Example parameter.              
+ * @param int _pin          Example parameter.
  */
 void LTR507::Sensor(int _pin)
 {
@@ -46,7 +46,7 @@ uint16_t LTR507::getLightIntensity()
     }
     readRegister(LIGHT_INTENSITY_ADDRESS, raw,
                  sizeof(uint8_t) * 2); // Get two bytes that consist of light intensity data
-    return raw[0] | raw[1] << 8;      // I2C sends 8 bits at once, this function merges two bytes into one variable
+    return raw[0] | raw[1] << 8;       // I2C sends 8 bits at once, this function merges two bytes into one variable
 }
 
 /**
@@ -56,13 +56,14 @@ uint16_t LTR507::getLightIntensity()
  */
 bool LTR507::Available()
 {
-    return !(sendAddress(PART_ID_REG)); //checking if address is succesfully sent, if not device is not ready to communicate
+    return !(
+        sendAddress(PART_ID_REG)); // checking if address is succesfully sent, if not device is not ready to communicate
 }
 
 /**
  * @brief                   Function that enables or disables ALS measurements
  *
- * @param bool _mode         1 for enable, 0 for disable                 
+ * @param bool _mode         1 for enable, 0 for disable
  */
 void LTR507::setALSMode(bool mode)
 {
@@ -84,7 +85,7 @@ void LTR507::setALSMode(bool mode)
 /**
  * @brief                   Function that enables or disables ALS measurements and is not used here
  *
- * @param bool _mode         1 for enable, 0 for disable               
+ * @param bool _mode         1 for enable, 0 for disable
  */
 void LTR507::setPSMode(bool mode)
 {
@@ -100,7 +101,7 @@ void LTR507::setPSMode(bool mode)
         reg_state[1] = buff & 0xFD;
     }
     reg_state[0] = PS_CONTR_REG;
-    sendData(reg_state, sizeof(uint8_t)*2);
+    sendData(reg_state, sizeof(uint8_t) * 2);
 }
 
 /**
@@ -120,7 +121,7 @@ char LTR507::getReg(int addr)
 /**
  * @brief                   Function that sets ALS Gain
  *
- * @param uint8_t _state          Binary code from macro defines              
+ * @param uint8_t _state          Binary code from macro defines
  */
 void LTR507::setALSGain(uint8_t state)
 {
@@ -135,14 +136,14 @@ void LTR507::setALSGain(uint8_t state)
 /**
  * @brief                   Function that sets resolution of measuring in bits
  *
- * @param uint8_t _rate          Binary code from macro defines                   
+ * @param uint8_t _rate          Binary code from macro defines
  */
 void LTR507::setALSBitWidth(uint8_t rate)
 {
     uint8_t reg_state[2];
     char buff;
     readRegister(ALS_MEAS_RATE, &buff, sizeof(char));
-    reg_state[1] = (buff & B00011111) | rate << 5 ;
+    reg_state[1] = (buff & B00011111) | rate << 5;
     reg_state[0] = ALS_MEAS_RATE;
     sendData(reg_state, sizeof(uint8_t) * 2);
 }
@@ -152,20 +153,21 @@ void LTR507::setALSBitWidth(uint8_t rate)
  *
  * @param uint8_t _rate          Binary code from macro defines
  *
- * @return                  
+ * @return
  */
-void LTR507::setALSMeasRate(uint8_t rate){
+void LTR507::setALSMeasRate(uint8_t rate)
+{
     uint8_t reg_state[2];
     char buff;
     readRegister(ALS_MEAS_RATE, &buff, sizeof(char));
-    reg_state[1] = (buff & B11111000) | rate ;
+    reg_state[1] = (buff & B11111000) | rate;
     reg_state[0] = ALS_MEAS_RATE;
     sendData(reg_state, sizeof(uint8_t) * 2);
 }
 
 /**
  * @brief                   Function which initializes sensor
- * 
+ *
  */
 void LTR507::init()
 {
