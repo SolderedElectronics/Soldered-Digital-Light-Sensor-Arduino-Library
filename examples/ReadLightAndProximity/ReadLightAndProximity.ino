@@ -5,7 +5,7 @@
  * @brief       Example for reading light intensity
  *
  *
- *
+ *              Product used is www.solde.red/333063
  * @authors     Goran Juric for soldered.com
  ***************************************************/
 
