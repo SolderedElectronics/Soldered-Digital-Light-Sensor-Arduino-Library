@@ -152,8 +152,6 @@ void LTR507::setALSBitWidth(uint8_t rate)
  * @brief                   Function which sets time needed to update data register
  *
  * @param uint8_t _rate          Binary code from macro defines
- *
- * @return
  */
 void LTR507::setALSMeasRate(uint8_t rate)
 {
