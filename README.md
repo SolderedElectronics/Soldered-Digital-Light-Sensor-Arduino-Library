@@ -5,7 +5,7 @@
 
 | ![Product name](https://upload.wikimedia.org/wikipedia/commons/8/8f/Example_image.svg) |
 | :---------------------------------------------------------------------------------------------: |
-| [NAZIV PROIZVODA](https://www.solde.red/333063)                                                            |
+| [Digital light sensor](https://www.solde.red/333063)                                                            |
 
 Digital light sensor with [easyC ecosystem](https://www.soldered.com/easyC). 
 
@@ -19,7 +19,7 @@ You can find hardware design for this board in Digital light sensor hardware rep
 
 ### Documentation
 
-Access Arduino library documentation [here](https://github.com/e-radionicacom/Soldered-Digital-Light-Sensor-Arduino-Library).
+Access Arduino library documentation [here](https://e-radionicacom.github.io/Soldered-Digital-Light-Sensor-Arduino-Library/).
 
 - Tutorial for using the Digital light sensor board
 - Installing an Arduino library
