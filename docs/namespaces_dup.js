@@ -1,4 +1,4 @@
 var namespaces_dup =
 [
-    [ "Digital_light_sensor_easyc", "namespace_digital__light__sensor__easyc.html", "namespace_digital__light__sensor__easyc" ]
+    [ "SI114X_light_sensor_easyc", "namespace_s_i114_x__light__sensor__easyc.html", "namespace_s_i114_x__light__sensor__easyc" ]
 ];

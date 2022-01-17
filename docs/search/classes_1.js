@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['ltr507_0',['LTR507',['../class_l_t_r507.html',1,'']]]
+  ['si114x_0',['SI114X',['../class_s_i114_x.html',1,'']]]
 ];

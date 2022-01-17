@@ -1,11 +1,10 @@
 var searchData=
 [
-  ['sendaddress_0',['sendAddress',['../class_digital__light__sensor__easyc_1_1_easy_c.html#a800ec082e404c03c765416fe7de5606e',1,'Digital_light_sensor_easyc::EasyC']]],
-  ['senddata_1',['sendData',['../class_digital__light__sensor__easyc_1_1_easy_c.html#adca09989da57cf5b8c184ff13de6e1fa',1,'Digital_light_sensor_easyc::EasyC']]],
-  ['sensor_2',['Sensor',['../class_l_t_r507.html#ae418ff0bf6bab4dd86484d037851f550',1,'LTR507']]],
-  ['setalsbitwidth_3',['setALSBitWidth',['../class_l_t_r507.html#a6d26768409a9ad8b6419c5d2d3eb27f0',1,'LTR507']]],
-  ['setalsgain_4',['setALSGain',['../class_l_t_r507.html#a2c49a5d761d0fa07dcbc3f502ad4e9d9',1,'LTR507']]],
-  ['setalsmeasrate_5',['setALSMeasRate',['../class_l_t_r507.html#a6db7c8e8c9c02130f64430996b62fc4c',1,'LTR507']]],
-  ['setalsmode_6',['setALSMode',['../class_l_t_r507.html#a2dc003fd1af22cfc665ee1158e3c1283',1,'LTR507']]],
-  ['setpsmode_7',['setPSMode',['../class_l_t_r507.html#a4d17f44cc20b1a1796851da443c21e01',1,'LTR507']]]
+  ['raw_0',['raw',['../class_s_i114_x.html#aad60e0338a4b3eb6be9a91c07aa915e0',1,'SI114X']]],
+  ['readdata_1',['readData',['../class_s_i114_x__light__sensor__easyc_1_1_easy_c.html#acca4ec0d72be63488801165d1d9be23c',1,'SI114X_light_sensor_easyc::EasyC']]],
+  ['readirgain_2',['readIRGain',['../class_s_i114_x.html#a25de0a810b00a2bee6ad70cd2cddca8e',1,'SI114X']]],
+  ['readme_2emd_3',['README.md',['../_r_e_a_d_m_e_8md.html',1,'']]],
+  ['readregister_4',['readRegister',['../class_s_i114_x__light__sensor__easyc_1_1_easy_c.html#ad8987d32bebc9382e569971c6bfa3da7',1,'SI114X_light_sensor_easyc::EasyC']]],
+  ['readuv_5',['readUV',['../class_s_i114_x.html#ab4d5cd44ba31574ef1b74298748316fc',1,'SI114X']]],
+  ['readvisiblegain_6',['readVisibleGain',['../class_s_i114_x.html#adff270792f3857f193ee20fc7a5f25f3',1,'SI114X']]]
 ];

@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['getlightintensity_0',['getLightIntensity',['../class_l_t_r507.html#a1c8180564faa8d9d654433017d48e6e4',1,'LTR507']]],
-  ['getreg_1',['getReg',['../class_l_t_r507.html#a22aed01a27456e5aa7aacc2c6a0f105e',1,'LTR507']]]
+  ['defaultaddress_0',['defaultAddress',['../class_s_i114_x__light__sensor__easyc_1_1_easy_c.html#af2e9f4354b67a1ba49d57e98caba3ab5',1,'SI114X_light_sensor_easyc::EasyC']]]
 ];

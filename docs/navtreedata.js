@@ -24,7 +24,7 @@
 */
 var NAVTREE =
 [
-  [ "Digital Light sensor Arduino library", "index.html", [
+  [ "SI114X sensor Arduino library", "index.html", [
     [ "Namespaces", "namespaces.html", [
       [ "Repository Contents", "index.html#autotoc_md1", null ],
       [ "Hardware design", "index.html#autotoc_md2", null ],
@@ -51,7 +51,7 @@ var NAVTREE =
 
 var NAVTREEINDEX =
 [
-"_digital-light-sensor-with-easyc-_s_o_l_d_e_r_e_d_8cpp.html"
+"_s_i1147-light-sensor-easyc-_s_o_l_d_e_r_e_d_8cpp.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

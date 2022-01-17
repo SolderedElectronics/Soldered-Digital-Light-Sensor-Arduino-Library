@@ -1,5 +1,6 @@
 var searchData=
 [
-  ['readdata_0',['readData',['../class_digital__light__sensor__easyc_1_1_easy_c.html#afcb91e441d9663bd8b26c5d2ce4b9a74',1,'Digital_light_sensor_easyc::EasyC']]],
-  ['readregister_1',['readRegister',['../class_digital__light__sensor__easyc_1_1_easy_c.html#ad214a9d50886abe84beb94295c0a145a',1,'Digital_light_sensor_easyc::EasyC']]]
+  ['getlightintensity_0',['getLightIntensity',['../class_s_i114_x.html#af4bd087d1d87f82fb586e1355e3492b7',1,'SI114X']]],
+  ['getlightintensityir_1',['getLightIntensityIR',['../class_s_i114_x.html#af433ebbacbda302cae901c81c7d27a5e',1,'SI114X']]],
+  ['getreg_2',['getReg',['../class_s_i114_x.html#ad2f9818b943de5bdb32f2d72541956b9',1,'SI114X']]]
 ];

@@ -1,6 +1,6 @@
 var hierarchy =
 [
-    [ "Digital_light_sensor_easyc::EasyC", "class_digital__light__sensor__easyc_1_1_easy_c.html", [
-      [ "LTR507", "class_l_t_r507.html", null ]
+    [ "SI114X_light_sensor_easyc::EasyC", "class_s_i114_x__light__sensor__easyc_1_1_easy_c.html", [
+      [ "SI114X", "class_s_i114_x.html", null ]
     ] ]
 ];
