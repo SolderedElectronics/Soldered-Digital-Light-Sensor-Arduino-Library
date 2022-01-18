@@ -6,12 +6,12 @@
  *
  *
  * @copyright GNU General Public License v3.0
- * @authors     @ soldered.com
+ * @authors     Goran Juric @ soldered.com
  ***************************************************/
 
 #include "easyC.h"
 
-namespace Digital_light_sensor_easyc
+namespace SI114X_light_sensor_easyc
 {
 
 /**
@@ -118,4 +118,4 @@ int EasyC::sendData(const uint8_t *a, int n)
     return err = Wire.endTransmission();
 }
 
-} // namespace Digital_light_sensor_easyc
+} // namespace SI114X_light_sensor_easyc
