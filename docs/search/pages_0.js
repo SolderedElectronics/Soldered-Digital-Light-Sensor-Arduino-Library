@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['si114x_20sensor_20arduino_20library_0',['SI114X sensor Arduino library',['../index.html',1,'']]]
+  ['digital_20light_20sensor_20arduino_20library_0',['Digital light sensor Arduino library',['../index.html',1,'']]]
 ];

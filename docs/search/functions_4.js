@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['sendaddress_0',['sendAddress',['../class_s_i114_x__light__sensor__easyc_1_1_easy_c.html#ac5222e69fc44b0361c5cf8abdb6e2318',1,'SI114X_light_sensor_easyc::EasyC']]],
-  ['senddata_1',['sendData',['../class_s_i114_x__light__sensor__easyc_1_1_easy_c.html#a0a5894cf3bb014f2416a28ae3ac1eca0',1,'SI114X_light_sensor_easyc::EasyC']]]
+  ['init_0',['init',['../class_l_t_r507.html#a6a9fa2bf18492febfb5352c7f18a2f52',1,'LTR507']]],
+  ['initializenative_1',['initializeNative',['../class_l_t_r507.html#a29346ddc75931b5d427cab31df20337d',1,'LTR507::initializeNative()'],['../class_digital__light__sensor__easyc_1_1_easy_c.html#adcd4a84ff4dad08e2a35ee8a4f840ccf',1,'Digital_light_sensor_easyc::EasyC::initializeNative()']]]
 ];
