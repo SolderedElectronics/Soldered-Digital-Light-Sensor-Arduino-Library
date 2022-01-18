@@ -1,0 +1,66 @@
+##################################################
+# Syntax Coloring Map For Soldered-digital-light-sensor
+##################################################
+
+##################################################
+# Datatypes (KEYWORD1)
+##################################################
+
+LTR507			KEYWORD1
+
+##################################################
+# Methods and Functions (KEYWORD2)
+##################################################
+
+init			KEYWORD2
+Sensor			KEYWORD2
+getLightIntensity	KEYWORD2
+Available		KEYWORD2
+setALSMode		KEYWORD2
+setPSMode		KEYWORD2
+init			KEYWORD2
+setALSGain		KEYWORD2
+getReg			KEYWORD2
+setALSMeasRate		KEYWORD2
+setALSBitWidth		KEYWORD2
+
+##################################################
+# Constants (LITERAL1)
+##################################################
+
+LTR507_ADDRESS           LITERAL1
+LTR507_SLAVE_ADDRESS     LITERAL1
+LIGHT_INTENSITY_ADDRESS  LITERAL1
+PROXIMITY_ADDRESS        LITERAL1
+ALS_PS_STATUS_ADDRESS    LITERAL1
+ALS_CONTR_REG            LITERAL1
+PS_CONTR_REG             LITERAL1
+PS_LED_REG               LITERAL1
+PS_N_PULSES              LITERAL1
+ALS_MEAS_RATE            LITERAL1
+PART_ID_REG              LITERAL1
+ALS_GAIN_1          	LITERAL1
+ALS_GAIN_05         	LITERAL1
+ALS_GAIN_001        	LITERAL1
+ALS_GAIN_0005       LITERAL1
+ALS_BIT_WIDTH_0     LITERAL1
+ALS_BIT_WIDTH_1     LITERAL1
+ALS_BIT_WIDTH_2     LITERAL1
+ALS_BIT_WIDTH_3     LITERAL1
+ALS_BIT_WIDTH_4     LITERAL1
+ALS_BIT_WIDTH_5     LITERAL1
+ALS_BIT_WIDTH_6     LITERAL1
+ALS_BIT_WIDTH_7     LITERAL1
+ALS_MEAS_RATE_0     LITERAL1
+ALS_MEAS_RATE_1     LITERAL1
+ALS_MEAS_RATE_2     LITERAL1
+ALS_MEAS_RATE_3     LITERAL1
+ALS_MEAS_RATE_4     LITERAL1
+PS_MEAS_RATE_12_5   LITERAL1
+PS_MEAS_RATE_50     LITERAL1
+PS_MEAS_RATE_70     LITERAL1
+PS_MEAS_RATE_100    LITERAL1
+PS_MEAS_RATE_200    LITERAL1
+PS_MEAS_RATE_500    LITERAL1
+PS_MEAS_RATE_1000   LITERAL1
+PS_MEAS_RATE_2000   LITERAL1
