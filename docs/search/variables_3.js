@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['err_0',['err',['../class_digital__light__sensor__easyc_1_1_easy_c.html#a9f0a734d42fdf57acb303b744dbeeea4',1,'Digital_light_sensor_easyc::EasyC']]]
+  ['err_0',['err',['../class_easy_c.html#a8b880d5daf116adde0cc436f1e4c0853',1,'EasyC']]]
 ];

@@ -94,7 +94,7 @@ $(document).ready(function(){initNavTree('_digital-light-sensor-with-easyc-_s_o_
 <div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span><span class="preprocessor">#define _Light_Sensor_</span></div>
 <div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span> </div>
 <div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span><span class="preprocessor">#include &quot;Arduino.h&quot;</span></div>
-<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span><span class="preprocessor">#include &quot;libs/Generic-easyC/easyC.hpp&quot;</span></div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span><span class="preprocessor">#include &quot;<a class="code" href="easy_c_8hpp.html">libs/Generic-easyC/easyC.hpp</a>&quot;</span></div>
 <div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span> </div>
 <div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span><span class="preprocessor">#define LTR507_ADDRESS          0x3A</span></div>
 <div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span><span class="preprocessor">#define LTR507_SLAVE_ADDRESS    0X23</span></div>
@@ -137,7 +137,7 @@ $(document).ready(function(){initNavTree('_digital-light-sensor-with-easyc-_s_o_
 <div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span><span class="preprocessor">#define PS_MEAS_RATE_1000 B110</span></div>
 <div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span><span class="preprocessor">#define PS_MEAS_RATE_2000 B111</span></div>
 <div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span> </div>
-<div class="line"><a id="l00059" name="l00059"></a><span class="lineno"><a class="line" href="class_l_t_r507.html">   59</a></span><span class="keyword">class </span><a class="code hl_class" href="class_l_t_r507.html">LTR507</a> : <span class="keyword">public</span> EasyC</div>
+<div class="line"><a id="l00059" name="l00059"></a><span class="lineno"><a class="line" href="class_l_t_r507.html">   59</a></span><span class="keyword">class </span><a class="code hl_class" href="class_l_t_r507.html">LTR507</a> : <span class="keyword">public</span> <a class="code hl_class" href="class_easy_c.html">EasyC</a></div>
 <div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span>{</div>
 <div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span>  <span class="keyword">public</span>:</div>
 <div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_l_t_r507.html#ae418ff0bf6bab4dd86484d037851f550">Sensor</a>(<span class="keywordtype">int</span> _pin);</div>
@@ -160,6 +160,7 @@ $(document).ready(function(){initNavTree('_digital-light-sensor-with-easyc-_s_o_
 <div class="line"><a id="l00079" name="l00079"></a><span class="lineno">   79</span>};</div>
 <div class="line"><a id="l00080" name="l00080"></a><span class="lineno">   80</span> </div>
 <div class="line"><a id="l00081" name="l00081"></a><span class="lineno">   81</span><span class="preprocessor">#endif</span></div>
+<div class="ttc" id="aclass_easy_c_html"><div class="ttname"><a href="class_easy_c.html">EasyC</a></div><div class="ttdef"><b>Definition:</b> easyC.hpp:22</div></div>
 <div class="ttc" id="aclass_l_t_r507_html"><div class="ttname"><a href="class_l_t_r507.html">LTR507</a></div><div class="ttdef"><b>Definition:</b> Digital-light-sensor-with-easyc-SOLDERED.h:60</div></div>
 <div class="ttc" id="aclass_l_t_r507_html_a01cbd7aaf7609228cbf255bb77d5651a"><div class="ttname"><a href="class_l_t_r507.html#a01cbd7aaf7609228cbf255bb77d5651a">LTR507::Available</a></div><div class="ttdeci">bool Available()</div><div class="ttdoc">Function which checks if I2C device is responding.</div><div class="ttdef"><b>Definition:</b> Digital-light-sensor-with-easyc-SOLDERED.cpp:60</div></div>
 <div class="ttc" id="aclass_l_t_r507_html_a1c8180564faa8d9d654433017d48e6e4"><div class="ttname"><a href="class_l_t_r507.html#a1c8180564faa8d9d654433017d48e6e4">LTR507::getLightIntensity</a></div><div class="ttdeci">uint16_t getLightIntensity()</div><div class="ttdoc">Function which gets light intensity data through I2C communication and converts it to int.</div><div class="ttdef"><b>Definition:</b> Digital-light-sensor-with-easyc-SOLDERED.cpp:40</div></div>
@@ -174,6 +175,7 @@ $(document).ready(function(){initNavTree('_digital-light-sensor-with-easyc-_s_o_
 <div class="ttc" id="aclass_l_t_r507_html_a6d26768409a9ad8b6419c5d2d3eb27f0"><div class="ttname"><a href="class_l_t_r507.html#a6d26768409a9ad8b6419c5d2d3eb27f0">LTR507::setALSBitWidth</a></div><div class="ttdeci">void setALSBitWidth(uint8_t)</div><div class="ttdoc">Function that sets resolution of measuring in bits.</div><div class="ttdef"><b>Definition:</b> Digital-light-sensor-with-easyc-SOLDERED.cpp:145</div></div>
 <div class="ttc" id="aclass_l_t_r507_html_a6db7c8e8c9c02130f64430996b62fc4c"><div class="ttname"><a href="class_l_t_r507.html#a6db7c8e8c9c02130f64430996b62fc4c">LTR507::setALSMeasRate</a></div><div class="ttdeci">void setALSMeasRate(uint8_t)</div><div class="ttdoc">Function which sets time needed to update data register.</div><div class="ttdef"><b>Definition:</b> Digital-light-sensor-with-easyc-SOLDERED.cpp:161</div></div>
 <div class="ttc" id="aclass_l_t_r507_html_ae418ff0bf6bab4dd86484d037851f550"><div class="ttname"><a href="class_l_t_r507.html#ae418ff0bf6bab4dd86484d037851f550">LTR507::Sensor</a></div><div class="ttdeci">void Sensor(int _pin)</div><div class="ttdoc">Sensor specific native constructor.</div><div class="ttdef"><b>Definition:</b> Digital-light-sensor-with-easyc-SOLDERED.cpp:19</div></div>
+<div class="ttc" id="aeasy_c_8hpp_html"><div class="ttname"><a href="easy_c_8hpp.html">easyC.hpp</a></div><div class="ttdoc">Basic funtions for easyC libraries.</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
@@ -182,7 +184,7 @@ $(document).ready(function(){initNavTree('_digital-light-sensor-with-easyc-_s_o_
     <ul>
         <li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="_digital-light-sensor-with-easyc-_s_o_l_d_e_r_e_d_8h.html">Digital-light-sensor-with-easyc-SOLDERED.h</a></li>
         <li class="footer">
-            Generated on Thu Feb 17 2022 12:11:51 for Digital Light sensor Arduino library by <a href="http://www.doxygen.org/index.html">
+            Generated on Thu Feb 17 2022 12:21:16 for Digital Light sensor Arduino library by <a href="http://www.doxygen.org/index.html">
                 <img class="footer" src="doxygen.png" alt="doxygen"
                     onerror="this.onerror=null;this.src='doxygen.svg';" /></a> 1.9.3.
             Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.
