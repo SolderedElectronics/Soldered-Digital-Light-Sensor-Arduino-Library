@@ -13,7 +13,7 @@
 #define _Light_Sensor_
 
 #include "Arduino.h"
-#include "libs/Generic-easyC/easyC.h"
+#include "libs/Generic-easyC/easyC.hpp"
 
 #define LTR507_ADDRESS          0x3A
 #define LTR507_SLAVE_ADDRESS    0X23
