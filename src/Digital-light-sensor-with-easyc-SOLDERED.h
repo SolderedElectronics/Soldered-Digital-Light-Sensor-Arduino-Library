@@ -56,7 +56,7 @@
 #define PS_MEAS_RATE_1000 B110
 #define PS_MEAS_RATE_2000 B111
 
-class LTR507 : public Digital_light_sensor_easyc::EasyC
+class LTR507 : public EasyC
 {
   public:
     void Sensor(int _pin);
