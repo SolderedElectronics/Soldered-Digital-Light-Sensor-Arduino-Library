@@ -25,13 +25,10 @@
 var NAVTREE =
 [
   [ "Digital Light sensor Arduino library", "index.html", [
+    [ "Digital light & proximity sensor LTR-507 breakout Arduino library", "index.html", [
+      [ "Have fun!", "index.html#autotoc_md8", null ]
+    ] ],
     [ "Classes", "annotated.html", [
-      [ "Repository Contents", "index.html#autotoc_md1", null ],
-      [ "Hardware design", "index.html#autotoc_md2", null ],
-      [ "Documentation", "index.html#autotoc_md3", null ],
-      [ "Board compatibility", "index.html#autotoc_md4", null ],
-      [ "About Soldered", "index.html#autotoc_md5", null ],
-      [ "Open-source license", "index.html#autotoc_md6", null ],
       [ "Class List", "annotated.html", "annotated_dup" ],
       [ "Class Index", "classes.html", null ],
       [ "Class Hierarchy", "hierarchy.html", "hierarchy" ],
