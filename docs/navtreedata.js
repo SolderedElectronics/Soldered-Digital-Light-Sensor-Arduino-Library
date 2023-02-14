@@ -25,9 +25,7 @@
 var NAVTREE =
 [
   [ "Digital Light sensor Arduino library", "index.html", [
-    [ "Digital light & proximity sensor LTR-507 breakout Arduino library", "index.html", [
-      [ "Have fun!", "index.html#autotoc_md8", null ]
-    ] ],
+    [ "Digital light & proximity sensor LTR-507 breakout Arduino library", "index.html", "index" ],
     [ "Classes", "annotated.html", [
       [ "Class List", "annotated.html", "annotated_dup" ],
       [ "Class Index", "classes.html", null ],
