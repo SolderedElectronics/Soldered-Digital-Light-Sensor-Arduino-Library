@@ -24,8 +24,8 @@
 */
 var NAVTREE =
 [
-  [ "Digital Light sensor Arduino library", "index.html", [
-    [ "Digital light & proximity sensor LTR-507 breakout Arduino library", "index.html", "index" ],
+  [ "LTR-507 Light And Proximity Sensor Arduino Library", "index.html", [
+    [ "LTR-507 Light And Proximity Sensor Breakout Arduino library", "index.html", "index" ],
     [ "Classes", "annotated.html", [
       [ "Class List", "annotated.html", "annotated_dup" ],
       [ "Class Index", "classes.html", null ],
@@ -44,7 +44,7 @@ var NAVTREE =
 
 var NAVTREEINDEX =
 [
-"_digital-light-sensor-with-easyc-_s_o_l_d_e_r_e_d_8cpp.html"
+"_l_t_r-507-_light-_and-_proximity-_sensor-_s_o_l_d_e_r_e_d_8cpp.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';
