@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['native_0',['native',['../class_easy_c.html#abb766b60f26778dbc64e8792fd754729',1,'EasyC']]]
+  ['getlightintensity_0',['getLightIntensity',['../class_l_t_r507.html#a1c8180564faa8d9d654433017d48e6e4',1,'LTR507']]],
+  ['getproximity_1',['getProximity',['../class_l_t_r507.html#a8f87f42f6d091c65014b235559418d7d',1,'LTR507']]]
 ];

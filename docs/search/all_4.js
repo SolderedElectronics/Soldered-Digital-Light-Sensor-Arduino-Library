@@ -1,5 +1,6 @@
 var searchData=
 [
-  ['getlightintensity_0',['getLightIntensity',['../class_l_t_r507.html#a1c8180564faa8d9d654433017d48e6e4',1,'LTR507']]],
-  ['getproximity_1',['getProximity',['../class_l_t_r507.html#a8f87f42f6d091c65014b235559418d7d',1,'LTR507']]]
+  ['defaultaddress_0',['defaultAddress',['../class_easy_c.html#a9052ae674b3553bbb19283278299f395',1,'EasyC']]],
+  ['design_1',['Hardware design',['../index.html#autotoc_md2',1,'']]],
+  ['documentation_2',['Documentation',['../index.html#autotoc_md3',1,'']]]
 ];

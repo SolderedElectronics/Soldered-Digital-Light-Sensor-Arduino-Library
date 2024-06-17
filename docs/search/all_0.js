@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['address_0',['address',['../class_easy_c.html#a6f4c6f2e8723b0c0495e126d49f5fcda',1,'EasyC']]]
+  ['507_20light_20and_20proximity_20sensor_20breakout_20arduino_20library_0',['LTR-507 Light And Proximity Sensor Breakout Arduino library',['../index.html',1,'']]]
 ];
