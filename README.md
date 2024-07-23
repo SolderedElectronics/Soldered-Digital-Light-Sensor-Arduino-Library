@@ -17,7 +17,7 @@ OPIS PROIZVODA + LINK NA [easyC ecosystem](https://www.soldered.com/en/easyC).
 
 ### Hardware design
 
-You can find hardware design for this board in _LTR-507 Light And Proximity Sensor Breakout_ hardware repository.
+You can find hardware design for this board in _LTR-507 Light And Proximity Sensor Breakout_ hardware repository. 
 
 ### Documentation
 
