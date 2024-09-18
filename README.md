@@ -7,7 +7,11 @@
 | :------------------------------------------------------------------------------------: |
 |                      [LTR-507 Light And Proximity Sensor Breakout](https://solde.red/333063)                      |
 
-OPIS PROIZVODA + LINK NA [easyC ecosystem](https://www.soldered.com/easyC).
+### Product Description
+For very precise measurements of the amount of light, take this digital light sensor into account (ALS – Ambient Light Sensor). In addition, the LTR-507ALS also measures the proximity (PS – Proximity Sensor) of the object to the sensor. It sends all this data via I2C communication, which is easy to read via our Arduino library.
+
+### Compatible with
+[easyC ecosystem](https://www.soldered.com/easyC)
 
 ### Repository Contents
 
