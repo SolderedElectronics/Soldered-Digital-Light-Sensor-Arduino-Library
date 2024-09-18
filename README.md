@@ -5,9 +5,9 @@
 
 | ![Product name](https://upload.wikimedia.org/wikipedia/commons/8/8f/Example_image.svg) |
 | :------------------------------------------------------------------------------------: |
-|                      [LTR-507 Light And Proximity Sensor Breakout](https://www.solde.red/333063)                      |
+|                      [LTR-507 Light And Proximity Sensor Breakout](https://solde.red/333063)                      |
 
-OPIS PROIZVODA + LINK NA [easyC ecosystem](https://www.soldered.com/en/easyC).
+OPIS PROIZVODA + LINK NA [easyC ecosystem](https://www.soldered.com/easyC).
 
 ### Repository Contents
 
@@ -17,7 +17,7 @@ OPIS PROIZVODA + LINK NA [easyC ecosystem](https://www.soldered.com/en/easyC).
 
 ### Hardware design
 
-You can find hardware design for this board in _LTR-507 Light And Proximity Sensor Breakout_ hardware repository. 
+You can find hardware design for this board [here](https://github.com/SolderedElectronics/Digital-light---proximity-sensor-LTR-507ALS-breakout-hardware-design) 
 
 ### Documentation
 
