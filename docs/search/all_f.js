@@ -13,6 +13,6 @@ var searchData=
   ['setpsmeasrate_10',['setPSMeasRate',['../class_l_t_r507.html#a1dcad41ecedfa3b40844c234985b7819',1,'LTR507']]],
   ['setpsmode_11',['setPSMode',['../class_l_t_r507.html#aaa05549a8dcb9994999d9dd32c6150ec',1,'LTR507']]],
   ['setpsnumpulses_12',['setPSNumPulses',['../class_l_t_r507.html#a0dd2baf12c97e316816b336b3d4d876d',1,'LTR507']]],
-  ['soldered_13',['About Soldered',['../index.html#autotoc_md5',1,'']]],
-  ['source_20license_14',['Open-source license',['../index.html#autotoc_md6',1,'']]]
+  ['soldered_13',['About Soldered',['../index.html#autotoc_md7',1,'']]],
+  ['source_20license_14',['Open-source license',['../index.html#autotoc_md8',1,'']]]
 ];
